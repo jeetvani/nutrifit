@@ -1,0 +1,37 @@
+{
+  "cli": {
+    "version": ">= 7.1.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_BASE_URL": "https://sr-nutrifit-backend-production-c2b4.up.railway.app",
+        "EXPO_PUBLIC_BASE_IMAGES_URL": "https://sr-nutrifit-backend-production-c2b4.up.railway.app",
+        "EXPO_PUBLIC_STRIPE_PUBLIC_KEY": "pk_live_51ObU9HJ8dqVITcuSjOSbspBpuOtRxus5ExFPqivIvvQKZh9ZyV5deHBazR9nT864kK5OjC8i93mUUnaqCnfDrWWN00JhLrWdVF"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_BASE_URL": "https://sr-nutrifit-backend-production-c2b4.up.railway.app",
+        "EXPO_PUBLIC_BASE_IMAGES_URL": "https://sr-nutrifit-backend-production-c2b4.up.railway.app",
+        "EXPO_PUBLIC_STRIPE_PUBLIC_KEY": "pk_live_51ObU9HJ8dqVITcuSjOSbspBpuOtRxus5ExFPqivIvvQKZh9ZyV5deHBazR9nT864kK5OjC8i93mUUnaqCnfDrWWN00JhLrWdVF"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "Ritinha.g.v@hotmail.com",
+        "ascAppId": "6477722428",
+        "appleTeamId": "Y2HA4CY7YR"
+      }
+    }
+  }
+}

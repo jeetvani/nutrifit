@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "SRNutriFit",
+    "slug": "sr-nutrifit",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.srnutrifit.srnutrifit",
+      "buildNumber": "3"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.srnutrifit.srnutrifit"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "androidNavigationBar": {
+      "visible": "sticky-immersive"
+    },
+    "plugins": [
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "",
+          "enableGooglePay": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3ad78521-88bd-4314-be64-13441b591e28"
+      }
+    }
+  }
+}

@@ -59,7 +59,7 @@ export default function FavSquare(props: any) {
           <Image
             style={styles.image}
             source={{
-              uri: imageUrl + data.image.url,
+            
               headers: {
                 Cookie: "payload-token=" + account.token,
               },

@@ -14,6 +14,7 @@ import {
   EvilIcons,
 } from "@expo/vector-icons";
 
+
 import {
   subTitleText,
   regularText,
